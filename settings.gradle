@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':amsflag', ':amsflag1', ':amsflag22', ':amsplugin'
 rootProject.name='AnrdoidDemoSet'
