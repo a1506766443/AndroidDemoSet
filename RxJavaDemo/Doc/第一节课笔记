@@ -1,0 +1,78 @@
+Rx思维： 响应式编程
+
+生活中的例子：
+起点（分发事件(PATH)：我饿了）----------下楼-------去餐厅--------点餐----------> 终点（吃饭 消费事件）
+
+程序中的例子：
+起点（分发事件：点击登录）----------登录API-------请求服务器--------获取响应码----------> 终点（更新UI登录成功 消费事件）
+
+
+起点可以分发一个数据
+onNext(1);
+    |
+    |
+    |
+flatMap  自己分发 10个数据 给下面
+ 1 --> 多发送 10次 1+"DDD"
+    |
+    |
+    |
+subscribe{
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+}
+
+https://github.com/ReactiveX/RxJava
+http://reactivex.io/#
+https://www.wanandroid.com/blog/show/2
+https://www.bejson.com/json2javapojo/new/%27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+onNext(1);
+    |
+    |
+    |
+flatMap
+ 1 --> 多发送 10次 1+"DDD"
+    |
+    |
+    |
+subscribe{
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+    1+"DDD"
+}
+
+https://www.wanandroid.com/blog/show/2
+https://www.bejson.com/json2javapojo/new/%27
