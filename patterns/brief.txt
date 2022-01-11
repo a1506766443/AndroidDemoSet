@@ -1,0 +1,18 @@
+02:简单工厂模式demo--->com.enjoy.create.fatory.simple
+03:工厂方法模式demo--->com.enjoy.create.fatory.fatoryMethod--->FruitStoreTest,FactoryTest
+04:抽象工厂模式demo--->com.enjoy.create.fatory.abstractFactory --->OrderSendClient
+05:建造者模式demo--->com.enjoy.create.builder--->FruitMealController
+06:工厂模式总结demo--->02,03,04,05
+07:单例模式demo--->com.enjoy.create.singleton--->SessionCount(懒汉式)
+08:适配器模式demo--->com.enjoy.structure.adapter--->AdapterClient
+09:桥接模式demo--->com.enjoy.structure.bridge--->BridgeClient(材质属性Material，单独成为一个扩展属性接口)
+10:装饰器模式demo--->com.enjoy.structure.decorator--->DecoratorClient(打包水果时，需要做打防伪/加固/加急等一些附加动作,动态地给一个对象增加一些额外的职责，为的是功能增强)
+11:代理模式demo--->com.enjoy.structure.proxy--->ProxyClient
+12:组合模式demo--->com.enjoy.structure.composite--->CompositeClient
+13:外观模式demo--->com.enjoy.structure.facade--->CustomerClient
+14:模版方法模式demo--->
+15:策略模式demo--->
+16:责任链模式demo--->
+17:观察者模式demo--->
+18:命令模式demo--->
+19:访问者模式demo--->
