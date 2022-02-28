@@ -1,2 +1,2 @@
-include ':app', ':amsflag', ':amsflag1', ':amsflag22', ':amsplugin', ':vmclassloader', ':RxJavaDemo', ':patterns', ':PermissionStudy'
+include ':app', ':amsflag', ':amsflag1', ':amsflag22', ':amsplugin', ':vmclassloader', ':RxJavaDemo', ':patterns', ':PermissionStudy', ':permissionstudylib'
 rootProject.name='AnrdoidDemoSet'
